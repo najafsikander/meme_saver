@@ -1,0 +1,39 @@
+
+// My SCSS variables
+$home-bg: url('../assets/images/meme_background.jpg');
+$bg-Size: cover;
+$signUp-bg: url('../assets/images/sign-up-bg.jpg');
+
+.fullPage {
+  width: 100%;
+  height: 100vh;
+  margin:0;
+  text-align: center;
+  background: $home-bg;
+  background-size: $bg-Size;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signUpPage {
+  
+  background: $signUp-bg !important;
+  background-repeat: no-repeat;
+}
+
+.signUpPage .custCard {
+  padding-top: 20vh;
+}
+
+.custCard {
+  padding-top: 30vh;
+}
+
+#signIn {
+  margin-right: 3%;
+}
+
+.brand-Image{
+  width: 1390% !important;
+  border: 2px orange solid;
+}
