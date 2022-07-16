@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const dbUrl = process.env.DB_URL || '';
+const dbUrl = process.env.MONGODB_URI || '';
 
 const connectDb = () => {
     if(mongoose.connections != null && (mongoose.connections[0].readyState)) return console.info('Already connected');
